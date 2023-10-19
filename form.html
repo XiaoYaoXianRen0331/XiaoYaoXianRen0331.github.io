@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="number" name="qty" placeholder="輸入數量" min="1" max="10" />
+    <form action="https://book.niceinfos.com/api/form/" method="post" enctype="multipart/form-data">
+        <div><input type="radio" name="gender" value="male" id="gender-male" /> <label for="gender-male">男</label></div>
+        <div><input type="radio" name="gender" value="female" id="gender-female" /> <label for="gender-female">女</label>
+        </div>
+        <div><input type="checkbox" name="music[]" value="a1" id="music-a1" /> <label for="music-a1">A1</label></div>
+        <div><input type="checkbox" name="music[]" value="a2" id="music-a2" /> <label for="music-a2">A2</label></div>
+        <div><input type="checkbox" name="music[]" value="a3" id="music-a3" /> <label for="music-a3">A3</label></div>
+        <div><input type="checkbox" name="music[]" value="a4" id="music-a4" /> <label for="music-a4">A4</label></div>
+        <div>
+            <label for="country">縣市</label>
+            <select name="country" id="country">
+                <option value="">選擇縣市</option>
+                <option value="TP">台北</option>
+                <option value="TC">台中</option>
+                <option>高雄</option>
+            </select>
+        </div>
+        <div>
+            <select name="country2[]" id="country2" multiple>
+                <option value="">選擇縣市</option>
+                <option value="TP">台北</option>
+                <option value="TC">台中</option>
+                <option>高雄</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="remark" id="remark" cols="30" rows="10" style="resize: none;"></textarea>
+        </div>
+        <div>
+            <input type="file" name="my-pic" />
+        </div>
+
+        <button>submit</button>
+    </form>
+
+
+</body>
+
+</html>

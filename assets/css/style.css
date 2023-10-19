@@ -1,0 +1,54 @@
+h1 {
+    color: red;
+}
+
+div.cube {
+    width: 100px;
+    height: 100px;
+    background: #dedede;
+    line-height: 100px;
+    text-align: center;
+}
+
+.f-red {
+    color: red;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fw-900 {
+    font-weight: 500;
+}
+
+.fa-san {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-image {
+    background-image: url(../images/domenico-loia-hGV2TfOh0ns-unsplash.png);
+    background-repeat: no-repeat;
+}
+
+.border {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: #ff6868;
+    color: #fff;
+}
+
+.margin {
+    margin: auto;
+}
